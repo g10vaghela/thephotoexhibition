@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="line_color_active">#3169DC</color>
+    <color name="line_color_normal">#DBDDDD</color>
+    <color name="hint_color">#9E9E9E</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="bg_color">#F2F2F2</color>
+    <color name="text_color">#030303</color>
+
+    <!--  For CirclePageIndicator purpose start  -->
+    <bool name="default_circle_indicator_centered">true</bool>
+    <color name="default_circle_indicator_fill_color">@color/colorPrimary</color>
+    <color name="default_circle_indicator_page_color">@color/colorPrimary</color>
+    <integer name="default_circle_indicator_orientation">0</integer>
+    <dimen name="default_circle_indicator_radius">3dp</dimen>
+    <bool name="default_circle_indicator_snap">false</bool>
+    <color name="default_circle_indicator_stroke_color">@color/colorPrimary</color>
+    <dimen name="default_circle_indicator_stroke_width">1dp</dimen>
+    <!--  For CirclePageIndicator purpose end  -->
+</resources>

@@ -1,0 +1,14 @@
+<resources>
+
+    <!-- Declare custom theme attributes that allow changing which styles are
+         used for button bars depending on the API level.
+         ?android:attr/buttonBarStyle is new as of API 11 so this is
+         necessary to support previous API levels. -->
+    <declare-styleable name="TextView_TypeFace">
+        <attr name="TypeFace" format="reference|string" localization="suggested" />
+        <attr name="Curvature" format="reference|integer" localization="suggested" />
+        <attr name="Curvature_Radius" format="reference|integer" localization="suggested" />
+        <attr name="Curvature_Direction" format="reference|string" localization="suggested" />
+    </declare-styleable>
+
+</resources>

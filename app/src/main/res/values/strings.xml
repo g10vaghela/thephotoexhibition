@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Photo Exhibition</string>
+    <string name="str_mobile">Enter Your Phone Number</string>
+    <string name="login_btn">Login</string>
+</resources>

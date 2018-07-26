@@ -1,0 +1,29 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="EditTextTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorControlNormal">@color/line_color_normal</item>
+        <item name="colorControlActivated">@color/line_color_active</item>
+        <item name="colorControlHighlight">@color/line_color_active</item>
+    </style>
+    <style name="StyledIndicators" parent="@android:style/Theme.Light">
+        <item name="vpiCirclePageIndicatorStyle">@style/CustomCirclePageIndicator</item>
+    </style>
+    <style name="CustomCirclePageIndicator">
+        <item name="fillColor">#ff0099</item>
+        <item name="strokeColor">#ffffff</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="radius">3dp</item>
+        <item name="centered">true</item>
+    </style>
+    <style name="ToolbarStyle" parent="@style/ThemeOverlay.AppCompat.ActionBar">
+        <!-- Customize color of navigation drawer icon and back arrow -->
+        <item name="colorControlNormal">@color/white</item>
+    </style>
+</resources>
